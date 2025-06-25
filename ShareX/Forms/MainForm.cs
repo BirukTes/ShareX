@@ -1420,6 +1420,9 @@ namespace ShareX
                 case Keys.Enter:
                     uim.TryOpen();
                     break;
+                case Keys.Control | Keys.A:
+                    ucTaskThumbnailView.SelectAll();
+                    break;
                 case Keys.Control | Keys.Enter:
                     uim.OpenFile();
                     break;

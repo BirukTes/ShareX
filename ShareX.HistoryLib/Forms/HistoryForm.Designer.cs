@@ -30,56 +30,59 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HistoryForm));
-            tscHistory = new System.Windows.Forms.ToolStripContainer();
-            lvHistory = new ShareX.HelpersLib.MyListView();
-            chIcon = new System.Windows.Forms.ColumnHeader();
-            chDateTime = new System.Windows.Forms.ColumnHeader();
-            chFilename = new System.Windows.Forms.ColumnHeader();
-            chURL = new System.Windows.Forms.ColumnHeader();
-            tsHistory = new System.Windows.Forms.ToolStrip();
-            tslSearch = new System.Windows.Forms.ToolStripLabel();
-            tstbSearch = new System.Windows.Forms.ToolStripTextBox();
-            tsbSearch = new System.Windows.Forms.ToolStripButton();
-            tsbAdvancedSearch = new System.Windows.Forms.ToolStripButton();
-            tss1 = new System.Windows.Forms.ToolStripSeparator();
-            tsbToggleMoreInfo = new System.Windows.Forms.ToolStripButton();
-            tsbShowStats = new System.Windows.Forms.ToolStripButton();
-            tss2 = new System.Windows.Forms.ToolStripSeparator();
-            tsbSettings = new System.Windows.Forms.ToolStripButton();
-            gbAdvancedSearch = new System.Windows.Forms.GroupBox();
-            btnAdvancedSearchClose = new System.Windows.Forms.Button();
-            btnAdvancedSearchReset = new System.Windows.Forms.Button();
-            lblURLFilter = new System.Windows.Forms.Label();
-            txtURLFilter = new System.Windows.Forms.TextBox();
-            lblFilenameFilter = new System.Windows.Forms.Label();
-            cbHostFilterSelection = new System.Windows.Forms.ComboBox();
-            cbTypeFilterSelection = new System.Windows.Forms.ComboBox();
-            cbHostFilter = new System.Windows.Forms.CheckBox();
-            cbTypeFilter = new System.Windows.Forms.CheckBox();
-            dtpFilterFrom = new System.Windows.Forms.DateTimePicker();
-            lblFilterFrom = new System.Windows.Forms.Label();
-            lblFilterTo = new System.Windows.Forms.Label();
-            cbDateFilter = new System.Windows.Forms.CheckBox();
-            dtpFilterTo = new System.Windows.Forms.DateTimePicker();
-            txtFilenameFilter = new System.Windows.Forms.TextBox();
-            scMain = new ShareX.HelpersLib.SplitContainerCustomSplitter();
-            scHistoryItemInfo = new ShareX.HelpersLib.SplitContainerCustomSplitter();
-            pbThumbnail = new ShareX.HelpersLib.MyPictureBox();
-            pgHistoryItemInfo = new System.Windows.Forms.PropertyGrid();
-            tscHistory.ContentPanel.SuspendLayout();
-            tscHistory.TopToolStripPanel.SuspendLayout();
-            tscHistory.SuspendLayout();
-            tsHistory.SuspendLayout();
-            gbAdvancedSearch.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)scMain).BeginInit();
-            scMain.Panel1.SuspendLayout();
-            scMain.Panel2.SuspendLayout();
-            scMain.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)scHistoryItemInfo).BeginInit();
-            scHistoryItemInfo.Panel1.SuspendLayout();
-            scHistoryItemInfo.Panel2.SuspendLayout();
-            scHistoryItemInfo.SuspendLayout();
-            SuspendLayout();
+
+            this.tscHistory = new System.Windows.Forms.ToolStripContainer();
+            this.lvHistory = new ShareX.HelpersLib.MyListView();
+            this.chIcon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.chDateTime = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.chFilename = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.chURL = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tsHistory = new System.Windows.Forms.ToolStrip();
+            this.tslSearch = new System.Windows.Forms.ToolStripLabel();
+            this.tstbSearch = new System.Windows.Forms.ToolStripTextBox();
+            this.tsbSearch = new System.Windows.Forms.ToolStripButton();
+            this.tsbAdvancedSearch = new System.Windows.Forms.ToolStripButton();
+            this.tss1 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsbToggleMoreInfo = new System.Windows.Forms.ToolStripButton();
+            this.tsbShowStats = new System.Windows.Forms.ToolStripButton();
+            this.tss2 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsbSettings = new System.Windows.Forms.ToolStripButton();
+            this.tsbMediaImporter = new System.Windows.Forms.ToolStripButton();
+            this.gbAdvancedSearch = new System.Windows.Forms.GroupBox();
+            this.btnAdvancedSearchClose = new System.Windows.Forms.Button();
+            this.btnAdvancedSearchReset = new System.Windows.Forms.Button();
+            this.lblURLFilter = new System.Windows.Forms.Label();
+            this.txtURLFilter = new System.Windows.Forms.TextBox();
+            this.lblFilenameFilter = new System.Windows.Forms.Label();
+            this.cbHostFilterSelection = new System.Windows.Forms.ComboBox();
+            this.cbTypeFilterSelection = new System.Windows.Forms.ComboBox();
+            this.cbHostFilter = new System.Windows.Forms.CheckBox();
+            this.cbTypeFilter = new System.Windows.Forms.CheckBox();
+            this.dtpFilterFrom = new System.Windows.Forms.DateTimePicker();
+            this.lblFilterFrom = new System.Windows.Forms.Label();
+            this.lblFilterTo = new System.Windows.Forms.Label();
+            this.cbDateFilter = new System.Windows.Forms.CheckBox();
+            this.dtpFilterTo = new System.Windows.Forms.DateTimePicker();
+            this.txtFilenameFilter = new System.Windows.Forms.TextBox();
+            this.scMain = new ShareX.HelpersLib.SplitContainerCustomSplitter();
+            this.scHistoryItemInfo = new ShareX.HelpersLib.SplitContainerCustomSplitter();
+            this.pbThumbnail = new ShareX.HelpersLib.MyPictureBox();
+            this.pgHistoryItemInfo = new System.Windows.Forms.PropertyGrid();
+            this.tscHistory.ContentPanel.SuspendLayout();
+            this.tscHistory.TopToolStripPanel.SuspendLayout();
+            this.tscHistory.SuspendLayout();
+            this.tsHistory.SuspendLayout();
+            this.gbAdvancedSearch.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.scMain)).BeginInit();
+            this.scMain.Panel1.SuspendLayout();
+            this.scMain.Panel2.SuspendLayout();
+            this.scMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.scHistoryItemInfo)).BeginInit();
+            this.scHistoryItemInfo.Panel1.SuspendLayout();
+            this.scHistoryItemInfo.Panel2.SuspendLayout();
+            this.scHistoryItemInfo.SuspendLayout();
+            this.SuspendLayout();
+          
             // 
             // tscHistory
             // 
@@ -97,23 +100,30 @@
             // 
             // lvHistory
             // 
-            lvHistory.AllowSelectAll = false;
-            lvHistory.AutoFillColumn = true;
-            lvHistory.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            lvHistory.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] { chIcon, chDateTime, chFilename, chURL });
-            resources.ApplyResources(lvHistory, "lvHistory");
-            lvHistory.FullRowSelect = true;
-            lvHistory.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            lvHistory.Name = "lvHistory";
-            lvHistory.UseCompatibleStateImageBehavior = false;
-            lvHistory.View = System.Windows.Forms.View.Details;
-            lvHistory.VirtualMode = true;
-            lvHistory.CacheVirtualItems += lvHistory_CacheVirtualItems;
-            lvHistory.ItemDrag += lvHistory_ItemDrag;
-            lvHistory.ItemSelectionChanged += lvHistory_ItemSelectionChanged;
-            lvHistory.RetrieveVirtualItem += lvHistory_RetrieveVirtualItem;
-            lvHistory.KeyDown += lvHistory_KeyDown;
-            lvHistory.MouseDoubleClick += lvHistory_MouseDoubleClick;
+
+            this.lvHistory.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.lvHistory.AutoFillColumn = true;
+            this.lvHistory.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lvHistory.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.chIcon,
+            this.chDateTime,
+            this.chFilename,
+            this.chURL});
+            resources.ApplyResources(this.lvHistory, "lvHistory");
+            this.lvHistory.FullRowSelect = true;
+            this.lvHistory.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.lvHistory.HideSelection = false;
+            this.lvHistory.Name = "lvHistory";
+            this.lvHistory.UseCompatibleStateImageBehavior = false;
+            this.lvHistory.View = System.Windows.Forms.View.Details;
+            this.lvHistory.VirtualMode = true;
+            this.lvHistory.CacheVirtualItems += new System.Windows.Forms.CacheVirtualItemsEventHandler(this.lvHistory_CacheVirtualItems);
+            this.lvHistory.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.lvHistory_ItemDrag);
+            this.lvHistory.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.lvHistory_ItemSelectionChanged);
+            this.lvHistory.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.lvHistory_RetrieveVirtualItem);
+            this.lvHistory.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lvHistory_KeyDown);
+            this.lvHistory.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvHistory_MouseDoubleClick);
+
             // 
             // chIcon
             // 
@@ -133,10 +143,21 @@
             // 
             // tsHistory
             // 
-            resources.ApplyResources(tsHistory, "tsHistory");
-            tsHistory.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            tsHistory.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tslSearch, tstbSearch, tsbSearch, tsbAdvancedSearch, tss1, tsbToggleMoreInfo, tsbShowStats, tss2, tsbSettings });
-            tsHistory.Name = "tsHistory";
+            resources.ApplyResources(this.tsHistory, "tsHistory");
+            this.tsHistory.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.tsHistory.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tslSearch,
+            this.tstbSearch,
+            this.tsbSearch,
+            this.tsbAdvancedSearch,
+            this.tss1,
+            this.tsbToggleMoreInfo,
+            this.tsbShowStats,
+            this.tss2,
+            this.tsbSettings,
+            this.tsbMediaImporter});
+            this.tsHistory.Name = "tsHistory";
+
             // 
             // tslSearch
             // 
@@ -201,6 +222,14 @@
             resources.ApplyResources(tsbSettings, "tsbSettings");
             tsbSettings.Name = "tsbSettings";
             tsbSettings.Click += tsbSettings_Click;
+            // 
+            // tsbMediaImporter
+            // 
+            this.tsbMediaImporter.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbMediaImporter.Image = global::ShareX.HistoryLib.Properties.Resources.ic_fluent_image_add_24_regular;
+            resources.ApplyResources(this.tsbMediaImporter, "tsbMediaImporter");
+            this.tsbMediaImporter.Name = "tsbMediaImporter";
+            this.tsbMediaImporter.Click += new System.EventHandler(this.tsbMediaImporter_Click);
             // 
             // gbAdvancedSearch
             // 
@@ -439,5 +468,6 @@
         private System.Windows.Forms.ToolStripButton tsbToggleMoreInfo;
         private System.Windows.Forms.ToolStripButton tsbShowStats;
         private System.Windows.Forms.Button btnAdvancedSearchClose;
+        private System.Windows.Forms.ToolStripButton tsbMediaImporter;
     }
 }
